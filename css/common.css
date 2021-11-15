@@ -1,4 +1,26 @@
-nav{
-position: fixed;
-top: 0px;
+html,body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
 }
+
+header{
+position: sticky;
+top: 0px;
+height: 50px;
+background-color: white;
+border-bottom: blueviolet solid 2px;
+}
+nav>table:nth-of-type(1){
+    
+    position: sticky;
+top: 0px;
+left: 0;
+right: 0;
+margin: 5% auto;
+padding: 10px;
+width: 500px;
+border: steelblue solid 3px;
+}
+
