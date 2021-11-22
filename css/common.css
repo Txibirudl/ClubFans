@@ -6,9 +6,10 @@ html{
 }
 
 body {
+    margin-top: 0%;
     margin: auto;
     width: 80%;
-    height: 100%;
+
     text-align: center;
     background-color: white;
 }
@@ -39,4 +40,8 @@ table{
 
     margin: auto;
     text-align: justify;
+}
+
+hr{
+    width: 80%;
 }
